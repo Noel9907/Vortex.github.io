@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+a {
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+header {
+  background: #00aaff;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header nav h1 {
+  font-size: 2rem;
+}
+
+main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article {
+  background: #fff;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+}
+
+article h2 {
+  color: #00aaff;
+  margin-bottom: 1rem;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+article h3 {
+  color: #007acc;
+  margin-top: 1.5rem;
+}
+
+article ul {
+  list-style-type: disc;
+  margin: 1rem 0;
+  padding-left: 20px;
+}
+
+button {
+  background-color: #fff;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #cfcfcf;
+  border-radius: 10px;
+}
+
+article ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Referrals Section Styling */
+aside.referrals {
+  background: #e0f7fa;
+  padding: 1rem;
+  margin: 2rem 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+}
+
+aside.referrals h3 {
+  color: #007acc;
+  margin-bottom: 1rem;
+}
+
+aside.referrals ul {
+  list-style-type: none;
+}
+
+aside.referrals ul li {
+  margin-bottom: 0.5rem;
+}
+
+aside.referrals ul li a {
+  color: #00aaff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+aside.referrals ul li a:hover {
+  color: #007acc;
+}
+
+/* CTA Section Styling */
+.cta {
+  background: #00aaff;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+  margin: 2rem 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-top: -20px;
+  font-size: large;
+}
+
+.cta p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* .cta button {
+  background: #fff;
+  color: #00aaff;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+} */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+
+  header nav h1 {
+    font-size: 1.5rem;
+  }
+
+  article {
+    padding: 1rem;
+  }
+
+  .cta h2 {
+    font-size: 1.5rem;
+  }
+
+  .cta p {
+    font-size: 1rem;
+  }
+
+  .cta button {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
