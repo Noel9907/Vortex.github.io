@@ -17,6 +17,18 @@ body {
 a {
   text-decoration: none;
 }
+.linkcap {
+  padding-top: 50px;
+}
+.links1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 h2 {
   text-align: center;
@@ -64,6 +76,9 @@ article img {
 article h3 {
   color: #007acc;
   margin-top: 1.5rem;
+}
+p {
+  text-align: center;
 }
 
 article ul {
